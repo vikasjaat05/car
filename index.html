@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="./index.css">
+<meta name="description" content="Travel">
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Hind:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900" rel="stylesheet">
+
+    <title>Car Booking</title>
+  </head>
+  <body>
+
+<!-- navbaar -->
+
+<nav class="navbar navbar-expand-custom navbar-mainbg">
+    <a class="navbar-brand navbar-logo" href="">My Car</a>
+    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars text-white"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <div class="hori-selector">
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i>Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#BookNow"><i class="far fa-address-book"></i>Book Now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About"><i class="far fa-clone"></i>About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Services"><i class="far fa-calendar-alt"></i>Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Blog"><i class="far fa-chart-bar"></i>Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact"><i class="far fa-copy"></i>Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!-- home -->
+
+<section id="BookNow">
+
+
+  
+  <div id="page1">
+    
+ <img alt="plane" class="plane" src="./img/images__1_-removebg-preview.png">
+   
+    
+  <div class="right">
+    <h1 class="book">BOOK </h1>  <br>
+    <h1 class="travel"> & TRAVEL</h1>
+     
+     <h4> Wherever you go, make yourself at home</h4>
+      			<form class="reservation">   
+     <fieldset>
+        <label> DESTINATION</label>
+              <div>
+                <input type="text" id="cities" name="cities" size="20" value="" placeholder="jaipur, bikaner" required /></div>
+       
+       <div class="left2">
+        <label>CHECK-IN DATE</label>
+        <input type="date" id="start" name="trip"
+               value="2018-07-22"
+               min="2018-01-01" max="2018-12-31" />
+         
+         <label>ADULTS</label>
+         <input list="adults" id="adults-number" name="adults-number" />
+
+<datalist id="adults">
+    <option value="1 adult">
+    <option value="2 adults">
+    <option value="3 adults">
+    <option value="+3 adults">
+</datalist>
+    </div>
+
+    <div class ="right2">
+        <label>CHECK-OUT DATE</label>
+        <input type="date" id="end" name="trip"
+               value="2019-07-29"
+               min="2019-01-01" max="2019-12-31"/>
+      <label>CHILDREN</label>
+      <input list="children" id="children-number" name="children-number" />
+
+<datalist id="children">
+    <option value="No children">
+    <option value="1">
+    <option value="2">
+    <option value="3">
+</datalist>
+    </div>
+       
+      <div class="button">
+       <input type="button" class="btn" value="START SEARCH" /></div>
+       
+   </fieldset></form>
+  </div>
+     </div>
+
+<!--Services  -->
+
+
+    <section  id="Services" >
+        
+    <div id="page2">
+    <h1> 25000 </h1>  
+   <br> 
+        <img alt="mondo" class="mondo" src="./img/image_processing20220523-24360-1fj8c8m.gif">
+      
+      <div class="sinistra"> <h2> <br> <br>Travelers booked lovely trips</h2>
+        <p> <br>Well prepared means well traveled. Your journey starts much before you take your bag and set off. We help to find the ticket and accomodation you need, offer the routes, car, rentals and even book a taxi. Just choose the destination - we will do the rest.<p>
+        <div class="button">
+       <input type="button" class="bottone" value="READ MORE  →" /></div>   
+      </div>
+    </div>
+    
+    
+    <div id="page3">
+      <h2 class="intro">Introducing new features and offers</h2> 
+  
+      <div class="slider-container">
+  <div class="menu">
+    <label for="slide-dot-1"></label>
+    <label for="slide-dot-2"></label>
+    <label for="slide-dot-3"></label>
+  </div>
+  <input id="slide-dot-1" type="radio" name="slides" checked>
+    <div class="slide slide-1"><div class="top-left">
+      TRAVELER BONUS <p class =tl> Big networks of patners allows us to offer you the extra bonuses and services at your destinations. Free museums and excursions, gyms, brekfasts, parties, gifts, discounts for families and much more. Check and choose.</p>
+      
+     <div class="button">
+       <input type="button" class="bottone1" value="ALL BONUSES  →" /></div> </div>
+     <img alt="paper" class="paper" src="https://i.ibb.co/HgVfMQQ/Paper-Plane-800x800.png">  
+  </div>
+  
+  <input id="slide-dot-2" type="radio" name="slides">
+    <div class="slide slide-2">
+        <div class="container">
+            <h1>Bonuses</h1>
+            <div id="bonusList">
+             
+            </div>
+          </div>
+    </div>
+  
+  <input id="slide-dot-3" type="radio" name="slides">
+    <div class="slide slide-3"></div>
+ </div>
+</div>
+
+</section>
+  <div id="page4">
+    <h2 class="base">Our base consist of:</h2>
+    
+    <table>
+  <tr>
+    <th>20k</th>
+    <th>12</th> 
+    <th>250</th>
+    <th>4K</th>
+  </tr>
+  <tr>
+    <td>Hotels, guesthouses<br>and apartments</td>
+    <td>Countries</td>
+    <td>taxi and<br>lowcosters</td>
+    <td>Travel agencies<br>and companies</td>
+  </tr>
+  </table>
+ </div>
+   <div id="sin2">
+      <p class="business">
+Be it business, education, family holiday, a city break with friends or tour, we are here to support your travel. Confortable journey and cozy accomodation - everything to make you feel at home whatever is the corner of the world.
+      </p>
+     
+     <div class="button">
+       <input type="button" class="bottone3" value="I WANT TO SEE →" />
+     </div>  
+    
+    <img alt="valigia" class="valigia" src="https://i.ibb.co/v1wJw8B/suitcase-PNG10774.png">
+    
+    </div> 
+    
+
+
+    <section id="Contact">
+
+        <div class="contact-container">
+            <div class="left-col">
+            
+            </div>
+            <div class="right-col">
+              <div class="theme-switch-wrapper">
+              <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <!-- <div class="slider round"></div> -->
+            </label>
+            <!-- <div class="description">Dark Mode</div> -->
+          </div>
+              
+              <h1>Contact us</h1>
+              <p>Planning to visit Indonesia soon? Get insider tips on where to go, things to do and find best deals for your next adventure.</p>
+              
+              <form id="contact-form" method="post">
+                <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                <label for="message">Message</label>
+            <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+                <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit">Send</button><!--</a>-->
+            
+          </form>
+          <div id="error"></div>
+          <div id="success-msg"></div>
+            </div>
+          </div>
+          
+        </section>
+
+    <div id="footer">
+      <ul class="mainmenu2">
+  <li><a href="#">Accommodations</a></li>
+  <li><a href="#">Flights</a></li>
+  <li><a href="#">Car Rentals</a></li>
+  <li><a href="#">Airport Taxis</a></li>
+        </ul>
+
+      
+      
+      <ul id="collegamenti">
+    <li><a href="#">Careers</a></li>
+  <li><a href="#">Press</a></li>
+  <li><a href="#">Polices</a></li>
+  <li><a href="#">Help</a></li>
+        <li><a href="#">FAQ</a></li></ul>
+      
+       
+        
+
+</section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="./index.js" ></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+  
+  </body>
+</html>
